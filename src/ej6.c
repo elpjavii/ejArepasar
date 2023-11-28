@@ -47,6 +47,8 @@ int main(void) {
 		}
 		break;
 	case 4:
+		//se supone que la var prote protege a total para que no se sume inecesariamente el precio con el anterior
+		//pero no se me ocurre nada. porfavor miralo
 		prote = cont;
 		if(cont == prote ){
 			for (k = 0; k < cont; k++){
